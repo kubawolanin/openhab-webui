@@ -76,7 +76,7 @@ export default {
                         { component: 'oh-slider', config: { item: 'Dimmer1', color: "=(items.Dimmer1.state > 50) ? 'green' : 'red'", class: ['padding', 'col'], style: { height: '160px' }, vertical: true, label: true, scale: true } },
                         { component: 'oh-slider', config: { item: 'Dimmer2', color: "=(items.Dimmer2.state > 50) ? 'green' : 'red'", class: ['padding', 'col'], style: { height: '160px' }, vertical: true, label: true, scale: true } },
                         { component: 'oh-slider', config: { item: 'Dimmer3', color: "=(items.Dimmer3.state > 50) ? 'green' : 'red'", class: ['padding', 'col'], style: { height: '160px' }, vertical: true, label: true, scale: true } },
-                        { component: 'oh-slider', config: { item: 'Dimmer4', color: "=(items.Dimmer4.state > 50) ? 'green' : 'red'", class: ['padding', 'col'], style: { height: '160px' }, vertical: true, label: true, scale: true } },
+                        { component: 'oh-slider', config: { item: 'Dimmer4', color: "=(items.Dimmer4.state > 50) ? 'green' : 'red'", class: ['padding', 'col'], style: { height: '160px' }, vertical: true, label: true, scale: true } }
                       ]
                     }
                   }
